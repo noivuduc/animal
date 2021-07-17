@@ -4,5 +4,16 @@ public class Solution {
         bird.walk();
         bird.fly();
         bird.sing();
+
+        // A.2
+
+        Duck duck = new Duck();
+        duck.swim();
+        duck.say();
+        duck.walk();
+
+        Chicken chicken = new Chicken();
+        chicken.say();
+        chicken.walk();
     }
 }
