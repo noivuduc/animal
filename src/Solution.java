@@ -18,5 +18,9 @@ public class Solution {
 
         Parrot parrot = new Parrot(duck);
         parrot.say();
+
+        Shark shark = new Shark();
+        shark.eat();
+        shark.say();
     }
 }

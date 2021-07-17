@@ -1,7 +1,7 @@
 public class UnderWaterAnimal extends Animal implements CanSwim{
     @Override
     void say() {
-        System.out.println("Under waters animal can't say");
+        System.out.println("Underwater animals can't say");
     }
 
     @Override
