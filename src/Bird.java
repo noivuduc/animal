@@ -1,4 +1,4 @@
-public class Bird extends FlyingAnimal implements CanSing, CanWalk {
+public class Bird extends FlyingAnimal implements CanSing {
 
     @Override
     public void sing() {
@@ -6,7 +6,5 @@ public class Bird extends FlyingAnimal implements CanSing, CanWalk {
     }
 
     @Override
-    public void walk() {
-        System.out.println("I'm walking");
-    }
+    void say() { }
 }

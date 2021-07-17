@@ -1,4 +1,12 @@
-package PACKAGE_NAME;
+public class Parrot extends Bird {
+    private Animal livingWith;
 
-public class Parrot {
+    public Parrot(Animal livingWith) {
+        this.livingWith = livingWith;
+    }
+
+    @Override
+    void say() {
+        livingWith.say();
+    }
 }

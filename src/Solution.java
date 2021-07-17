@@ -15,5 +15,8 @@ public class Solution {
         Chicken chicken = new Chicken();
         chicken.say();
         chicken.walk();
+
+        Parrot parrot = new Parrot(duck);
+        parrot.say();
     }
 }
