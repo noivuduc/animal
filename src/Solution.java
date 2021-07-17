@@ -22,5 +22,7 @@ public class Solution {
         Shark shark = new Shark();
         shark.eat();
         shark.say();
+        Dolphin dolphin = new Dolphin();
+        dolphin.swim();
     }
 }
