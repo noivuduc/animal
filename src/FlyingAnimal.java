@@ -1,7 +1,7 @@
 public abstract class FlyingAnimal extends Animal implements CanFly, CanWalk {
     @Override
     public void fly() {
-        System.out.println("I'm flying...");
+        System.out.println("I'm animal.flying...");
     }
 
     @Override
